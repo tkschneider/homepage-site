@@ -1,0 +1,46 @@
+body{ 
+  background: url("../img/one.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	margin: 0px;
+	color: dark gray;
+	font-size: 70px;
+	opacity: .6;
+}
+
+#date,#time{
+	font-family: 'Merriweather', serif;
+	color: dark gray;
+	font-size: 4em;
+	position: relative;
+	text-align: center;
+	top: 25%;
+}
+
+.greeting-box{
+	position: absolute;
+	left: 5%;
+	top: 10%;
+
+}
+
+.clock{
+	width: 350px;
+	height: 300px;
+	top: 2%;
+	right: 2%;
+	position: fixed;
+	margin-left: 30px;
+	margin-top: 0px;
+	opacity: .7;
+	background-color: #767;
+	color: #fff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%; 
+}
